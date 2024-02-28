@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    
+    <h1>Cadastre o seu pais de origem</h1>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="Cadastre" onclick="cadastrar()">
+    <div id="cadastro"></div>
+
+    <script>
+        function cadastrar(){
+        var pais = window.document.querySelector('input#pais').value
+        var cadastro = window.document.querySelector('div#cadastro')
+
+        cadastro.innerHTML = `<p>Seu pais de origem é o ${pais}</p>`
+
+        if(pais == 'Brasil'){
+            cadastro.innerHTML += 'Vocé é brasileiro'
+        }
+        else{
+            cadastro.innerHTML += 'Você é estrangeiro'
+        }
+        }
+    </script>
+
+</body>
+</html>
