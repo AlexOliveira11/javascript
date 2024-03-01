@@ -13,27 +13,32 @@
         </h1>
     </header>
     <section>
-        <div id="verificador">
-            <p>Ano Nascimento: <input type="number" name="nascimento" id="data" min="0"></p>
-            
-            <p>Sexo: <input type="radio" name="sex" id="mas" checked>
-            <label for="masc">Masculino</label>
-            
+        <div>
+            <p>Ano Nascimento 
+                <input type="number" name="nascimento" id="nascimento">
+            </p>
 
-            <input type="radio" name="sex" id="fem">
-            <label for="fem">Feminino</label>
+            <p>Sexo: 
+                <input type="radio" name="sexo" id="mas">
+                <label for="mas">Maculino</label>
+
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
             </p>
             
-            <input type="button" value="verificar" onclick="verificar()">
         </div>
         
-        <divid="resultado">
+        <div id="resultado">
             <p>Preencha os dados acima para ver o resultado</p>
         </div>
 
     </section>
     <footer>
-
+        <img src="fotos/mulher-adolescentea.jpg" alt="">
     </footer>
     <script src="script.js"></script>
 </body>
