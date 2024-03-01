@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font: normal;
+}
+body{
+    background-color: blue;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: white;
+    height: 25vw;
+    width: 50vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.589);
+    text-align: ;
+}
+footer{
+    text-align: center;
+}
+footer > a{
+    text-decoration:none;
+    color: white;
+    font-size: 25px;
+}
+footer > a:hover{
+    color: black;
+}
+footer > a > img{
+    height: 18px;
+}
