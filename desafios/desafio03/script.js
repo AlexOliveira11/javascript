@@ -27,7 +27,8 @@ function contador() {
         return;
     }
 
-    for (var i = inicio; i <= fim; i += passo) {
-        resultado.innerHTML += `${i} &#128073; `;
+    for (var c = inicio; c <= fim; c += passo) {
+        resultado.innerHTML += `${c} &#128073; `;
     }
+    resultado.innerHTML += `\u{1F3C1}`
 }
